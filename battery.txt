@@ -1,0 +1,12 @@
+battery
+
+ammar@pi:~$ ls -l /dev/vcio
+crw-rw---- 1 root video 10, 126 Feb 22 05:19 /dev/vcio
+ammar@pi:~$ sudo chmod 666 /dev/vcio
+ammar@pi:~$ ls -l /dev/vcio
+crw-rw-rw- 1 root video 10, 126 Feb 22 05:19 /dev/vcio
+ammar@pi:~$ vcgencmd get_throttled
+throttled=0x0
+ammar@pi:~/dev_ws$ vcgencmd measure_temp
+temp=53.5'C
+
