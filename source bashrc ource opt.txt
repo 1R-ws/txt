@@ -1,0 +1,6 @@
+source ~/.bashrc
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
+colcon build --symlink-install
+
+
