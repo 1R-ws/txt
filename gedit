@@ -1,0 +1,6 @@
+source /opt/ros/jazzy/setup.bash
+source ~/ros2_ws/install/setup.bash
+export GZ_MODEL_PATH=$GZ_MODEL_PATH:~/ros2_ws/src/protobot/models
+
+export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:$HOME/ros2_ws/src/protobot/models
+export GZ_MODEL_PATH=$GZ_MODEL_PATH:$HOME/ros2_ws/src/protobot/models
